@@ -45,7 +45,7 @@
 ## 技术栈
 
 - **后端**：Python, Flask
-- **AI模型**：DeepSeek-V3 AI模型
+- **AI模型**：支持OPEN AI sdk的任意模型
 - **通信协议**：自定义TCP协议，HTTP RESTful API
 - **存储**：JSON文件（应用知识库）
 
@@ -53,7 +53,7 @@
 
 - Python 3.8+
 - Flask
-- OpenAI Python SDK (使用DeepSeek API)
+- OpenAI Python SDK (支持OPEN AI sdk的任意模型)
 - Android设备或模拟器（需安装配套客户端应用）
 
 ## 安装步骤

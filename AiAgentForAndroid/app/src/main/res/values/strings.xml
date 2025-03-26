@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">MCP客户端</string>
+    <string name="execute_command">执行指令</string>
+    <string name="learn_apps">学习应用</string>
+    <string name="command_hint">输入指令，例如：听刘德华的歌</string>
+    <string name="status_label">状态:</string>
+    <string name="status_initializing">初始化中...</string>
+    <string name="status_ready">准备就绪</string>
+    <string name="status_executing">正在执行指令...</string>
+    <string name="status_learning">正在学习应用...</string>
+    <string name="status_success">执行成功</string>
+    <string name="status_failed">执行失败</string>
+    <string name="title_app">MCP 安卓客户端</string>
+    <string name="description">通过自然语言指令控制 Android 设备</string>
+    <string name="accessibility_service_description">MCP客户端使用无障碍服务来自动执行操作，例如点击、滚动和输入文本。此服务使MCP能够根据自然语言指令控制您的设备。</string>
+    <string name="enable_accessibility">请启用无障碍服务</string>
+    <string name="service_enabled">无障碍服务已启用</string>
+    <string name="service_disabled">无障碍服务未启用</string>
+    <string name="server_config">服务器配置</string>
+    <string name="server_host">服务器地址</string>
+    <string name="server_port">服务器端口</string>
+    <string name="save">保存</string>
+    <string name="cancel">取消</string>
+    <string name="settings">设置</string>
+    <string name="history">历史记录</string>
+    <string name="clear_history">清除历史</string>
+    <string name="record_actions">记录操作</string>
+    <string name="stop_recording">停止记录</string>
+    <string name="recording_started">开始记录操作</string>
+    <string name="recording_stopped">停止记录操作</string>
+    <string name="no_history">无历史记录</string>
+</resources>

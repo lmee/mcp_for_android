@@ -45,7 +45,7 @@
 ## 技术栈
 
 - **后端**：Python, Flask
-- **AI模型**：DeepSeek-V3 AI模型
+- **AI模型**：支持OPEN AI sdk的任意模型
 - **通信协议**：自定义TCP协议，HTTP RESTful API
 - **存储**：JSON文件（应用知识库）
 
@@ -53,7 +53,7 @@
 
 - Python 3.8+
 - Flask
-- OpenAI Python SDK (使用DeepSeek API)
+- OpenAI Python SDK (支持OPEN AI sdk的任意模型)
 - Android设备或模拟器（需安装配套客户端应用）
 
 ## 安装步骤
@@ -61,8 +61,8 @@
 1. 克隆仓库到本地：
 
 ```bash
-git clone https://github.com/yourusername/android-mcp-framework.git
-cd android-mcp-framework
+git clone https://github.com/lmee/mcp_for_android.git
+cd mcp_for_android
 ```
 
 2. 创建并激活虚拟环境：
@@ -80,7 +80,7 @@ pip install -r requirements.txt
 
 4. 配置API密钥：
 
-在`main.py`中更新DeepSeek AI的API密钥，或设置环境变量：
+在`main.py`中更新所使用模型的API密钥，或设置环境变量：
 
 ```bash
 export DEEPSEEK_API_KEY="your-api-key-here"
@@ -232,8 +232,8 @@ android-mcp-framework/
 
 ## 注意事项
 
-1. 该框架需要配套的Android客户端才能工作
-2. 确保Android设备和运行服务器的计算机在同一网络中
+1. 本项目仅提供思路和方案，代码为示例代码，并不适合开箱即用
+2. 该框架需要配套的Android客户端才能工作
 3. 某些应用可能有反爬虫或安全机制，可能限制自动化操作
 4. 需要有效的DeepSeek AI API密钥
 5. 应用知识库会随着学习增长，确保有足够的存储空间
